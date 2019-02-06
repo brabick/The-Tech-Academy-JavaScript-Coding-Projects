@@ -11,7 +11,8 @@
         if (sizeArray[i].checked) {
           var selectedSize = sizeArray[i].value;
         };
-       /* if (selectedSize === "Small Pizza") {
+      };
+        if (selectedSize === "Personal Pizza") {
           text1 = text1 + selectedSize + " $6.00" + "<br>";
         } else if (selectedSize === "Medium Pizza") {
           text1 = text1 + selectedSize + " $10.00" + "<br>";
@@ -21,23 +22,22 @@
           text1 = text1 + selectedSize + " $16.00" + "<br>";
           
         };
-        consolidated two if statements
-        */
+
  
         // Check selected size, assigns cost and prints the selection
-        if (selectedSize === "Small Pizza") {
+        if (selectedSize === "Personal Pizza") {
           sizeTotal = 6;
-          text1 = text1 + selectedSize + " $" + sizeTotal + "<br>";
+          
         } else if (selectedSize === "Medium Pizza") {
           sizeTotal = 10;
-          text1 = text1 + selectedSize + " $" + sizeTotal + "<br>";
+
         } else if (selectedSize === "Large Pizza") {
           sizeTotal = 14;
-          text1 = text1 + selectedSize + " $" + sizeTotal + "<br>";
+
         } else if (selectedSize === "Colossal Pizza") {
           sizeTotal = 16;
-          text1 = text1 + selectedSize + " $" + sizeTotal + "<br>";
-        }
+
+        };
         
         //Prints running total and calls the next function in the series
         runningTotal = sizeTotal;
@@ -47,7 +47,7 @@
       };
       
       
-      };
+      
   
       //End Checkout function
   

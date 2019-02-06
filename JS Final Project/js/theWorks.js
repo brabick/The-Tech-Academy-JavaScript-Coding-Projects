@@ -1,4 +1,3 @@
 function theWorks() {
-    $(".meat").attr("checked", "true");
-    $(".veggie").attr("checked", "true");
+    $('input[type=checkbox]').prop('checked', "true");
 }
