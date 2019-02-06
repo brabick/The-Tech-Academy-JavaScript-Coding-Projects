@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342 -->
+<html lang="en" class=" js no-mobile desktop no-ie chrome chrome71 royalty-free-vector-section w-1920 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch no-retina fontface svginline cssanimation localStorage sessionStorage domloaded" id="pizza-icon-flat-style-vector-11365342-page"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="./Pizza icon flat style Royalty Free Vector_files/02e09611df"></script><script src="./Pizza icon flat style Royalty Free Vector_files/nr-1118.min.js.download"></script><script type="text/javascript" async="" src="./Pizza icon flat style Royalty Free Vector_files/linkid.js.download"></script><script async="" src="./Pizza icon flat style Royalty Free Vector_files/analytics.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn1.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn2.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn3.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn4.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn5.vectorstock.com/">
+
+	<title>Pizza icon flat style Royalty Free Vector Image</title>
+	<meta name="description" content="Pizza icon. Flat illustration of pizza vector icon for web. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions. ID #11365342.">
+	
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="og:type" content="product">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342">
+	<meta property="og:title" content="Pizza icon flat style vector image on VectorStock">
+	<meta property="og:description" content="Pizza icon. Flat illustration of pizza vector icon for web. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+	<meta property="og:image:url" content="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+	<meta property="og:image:secure_url" content="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	<meta property="og:price:amount" content="0.69">
+	<meta property="og:price:currency" content="USD">
+	<meta property="product:price:amount" content="0.69">
+	<meta property="product:price:currency" content="USD">
+
+	<meta property="fb:app_id" content="241100862642313">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342">
+	<meta name="twitter:title" content="Pizza icon flat style vector image">
+	<meta name="twitter:description" content="Pizza icon. Flat illustration of pizza vector icon for web">
+	<meta name="twitter:image" content="https://cdn3.vectorstock.com/i/thumb-large/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+	<meta name="twitter:site" content="@VectorStock">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342">
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="./Pizza icon flat style Royalty Free Vector_files/common1548896347.min.css">
+	<link rel="stylesheet" href="./Pizza icon flat style Royalty Free Vector_files/vector1548896347.min.css">
+	<script src="./Pizza icon flat style Royalty Free Vector_files/common1548977054.min.js.download"></script>
+	<script src="./Pizza icon flat style Royalty Free Vector_files/vector1548977054.min.js.download"></script>
+<!-- Analytics --><script type="text/javascript">// Load GA script
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+// Setup
+ga('create', 'UA-2180430-2', 'none');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="false" value="" placeholder="Search…">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value=""> <input type="hidden" name="artist" value=""> <input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Popular
+						Categories</a></li>
+					<li><button type="button" data-action="signup">Sign Up</button></li>
+				</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+		<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+							<ul>
+								<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+								<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+							</ul>
+						</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul>
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+
+
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="20">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="checkbox checked">
+							<label class="selected" for="vs_remember">
+								<span class="title">Stay Logged In</span>
+								<span class="icon"></span>
+								<input type="checkbox" id="vs_remember" name="vs_remember" value="yes" tabindex="3" checked="">
+							</label>
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 554px; max-width: 808px;">
+
+			<!-- Aside -->
+			<div class="aside" data-version="c">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors">
+							<span itemprop="name">Flat Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>Pizza icon flat style vector&nbsp;image</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+						<noscript><img src="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg" title="Pizza icon flat style vector image" alt="Pizza icon flat style" itemprop="img"></noscript>
+					<img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-flat-style-vector-11365342.jpg"></div>
+					<div class="lowres">
+						<img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-flat-style-vector-11365342(1).jpg" title="Pizza icon flat style vector image" alt="Pizza icon flat style">
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payments="3">
+					<input type="hidden" id="vector_id" value="11365342">
+					<input type="hidden" id="vector_title" value="Pizza icon flat style">
+					<input type="hidden" id="vector_description" value="Pizza icon. Flat illustration of pizza vector icon for web. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342">
+					<input type="hidden" id="vector_media" value="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Ylivdesign">
+					<input type="hidden" id="account_user" value="0">
+
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="radgroup">
+								<fieldset>
+									<label for="f_license_standard" class="checked">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Resale &amp; Reproduction</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Graphic Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Web Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Social Media</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Multi-user</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Resale Items</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Unlimited Runs</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+									</tbody>
+								</table>
+
+								<span class="tail"></span>
+							</div>
+						</div>
+
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="radgroup" data-license="standard">
+																<fieldset>
+									<label for="f_payment_standard_single-image" class="checked">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Single Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Single Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-As-You-Go Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69c</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<span class="tail"></span>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="radgroup" data-license="expanded">
+																<fieldset>
+									<label for="f_payment_expanded_single-image" class="checked">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="29.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Single Image</span>
+										<span class="value"><small>$</small><var>29.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Single Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>29.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<span class="tail"></span>
+							</div>
+													</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="sublabel"><abbr title="Adobe Illustrator file (v10+)">Ai</abbr>, <abbr title="Vector EPS file (v8+)">EPS</abbr>, <abbr title="Vector PDF file">PDF</abbr> &amp; <abbr title="High-res JPEG (300 DPI+)">JPG</abbr> files</span>
+							<span class="icon"></span>
+						</button>
+					</div>
+					<div class="download_options">
+						<div class="wrap">
+							<div class="optgroup" data-action="download">
+								<span class="header">Download File/s:</span>
+								<div class="dropdown" data-value="zip">
+									<div class="display">
+										<span class="label"><strong>ZIP Archive</strong></span>
+										<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M10.6,12.8 15,17.2 19.4,12.8"></path></svg></span>
+									</div>
+									<div class="select">
+										<select>
+											<optgroup label="All Files">
+												<option value="zip" data-label="ZIP Archive" data-details="" data-url="" selected="selected">ZIP Archive</option>											</optgroup>
+											<optgroup label="Image">
+												<option value="jpg" data-label="High-res JPG" data-details="300 DPI+" data-url="">High-res JPG (300 DPI+)</option>												<option value="png" data-label="High-res PNG" data-details="300 DPI+" data-url="">High-res PNG (300 DPI+)</option>											</optgroup>
+											<optgroup label="Vector">
+												<option value="ai" data-label="Adobe Illustrator" data-details="v10+" data-url="">Adobe Illustrator (v10+)</option>												<option value="eps" data-label="Vector EPS" data-details="v8+" data-url="">Vector EPS (v8+)</option>												<option value="pdf" data-label="Vector PDF" data-details="" data-url="">Vector PDF</option>											</optgroup>
+										</select>
+									</div>
+								</div>
+								<button type="button" data-action="download_file">
+									<span class="label">Download ZIP</span>
+									<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M23.6,21.2 23.6,9.5 16.4,9.5 16.4,21.3 10.8,21.3 11,21.5 20,30.5 29.2,21.3"></path></svg></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg">
+						<noscript><img src="https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg" title="Pizza icon flat style vector image" alt="Pizza icon flat style" itemprop="img"></noscript>
+					<img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-flat-style-vector-11365342.jpg"></div>
+					<div class="lowres">
+						<img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-flat-style-vector-11365342(1).jpg" title="Pizza icon flat style vector image" alt="Pizza icon flat style">
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share on</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>11365342</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Ylivdesign" rel="nofollow">Ylivdesign</a><button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options">
+						<ul>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="label">Add to Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemscope="" itemtype="http://schema.org/Product">
+					<div itemprop="productID">11365342</div>
+					<div itemprop="url">https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-style-vector-11365342</div>
+					<div itemprop="releaseDate">2016-10-31</div>
+					<div itemprop="name">Pizza icon flat style Vector Image</div>
+					<div itemprop="description">Pizza icon. Flat illustration of pizza vector icon for web. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.</div>
+					<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+					<div itemprop="contentUrl">https://cdn3.vectorstock.com/i/1000x1000/53/42/pizza-icon-flat-style-vector-11365342.jpg</div>
+				</div>
+				<div itemscope="" itemprop="offers" itemtype="http://schema.org/Offer">
+						<div itemprop="price">0.69</div>
+						<div itemprop="priceCurrency">USD</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/71/34/slice-cheese-pizza-icon-simple-style-vector-22837134.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/slice-cheese-pizza-icon-simple-style-vector-22837134" title="slice cheese pizza icon simple style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/71/34/slice-cheese-pizza-icon-simple-style-vector-22837134.jpg" title="slice cheese pizza icon simple style" alt="slice cheese pizza icon simple style vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/slice-cheese-pizza-icon-simple-style-vector-22837134.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/72/44/pizza-icon-in-trendy-flat-style-on-white-vector-21057244.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-in-trendy-flat-style-on-white-vector-21057244" title="pizza icon in trendy flat style on white vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/72/44/pizza-icon-in-trendy-flat-style-on-white-vector-21057244.jpg" title="pizza icon in trendy flat style on white" alt="pizza icon in trendy flat style on white vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-in-trendy-flat-style-on-white-vector-21057244.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/28/89/several-style-of-pizza-icons-set-vector-13452889.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/several-style-of-pizza-icons-set-vector-13452889" title="several style of pizza icons set vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/28/89/several-style-of-pizza-icons-set-vector-13452889.jpg" title="several style of pizza icons set" alt="several style of pizza icons set vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/several-style-of-pizza-icons-set-vector-13452889.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/69/57/black-and-white-pizza-icon-on-white-background-vector-22436957.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/black-and-white-pizza-icon-on-white-background-vector-22436957" title="black and white pizza icon on white background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/69/57/black-and-white-pizza-icon-on-white-background-vector-22436957.jpg" title="black and white pizza icon on white background" alt="black and white pizza icon on white background vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/black-and-white-pizza-icon-on-white-background-vector-22436957.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/21/07/pizza-flat-icon-vector-23552107.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-flat-icon-vector-23552107" title="pizza flat icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/21/07/pizza-flat-icon-vector-23552107.jpg" title="pizza flat icon" alt="pizza flat icon vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-flat-icon-vector-23552107.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/97/42/pizza-icon-icon-flat-vector-23459742.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-icon-flat-vector-23459742" title="pizza icon icon flat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/97/42/pizza-icon-icon-flat-vector-23459742.jpg" title="pizza icon icon flat" alt="pizza icon icon flat vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-icon-flat-vector-23459742.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/96/62/pizza-simple-sign-flat-black-icon-with-vector-13969662.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-simple-sign-flat-black-icon-with-vector-13969662" title="pizza simple sign flat black icon with vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/96/62/pizza-simple-sign-flat-black-icon-with-vector-13969662.jpg" title="pizza simple sign flat black icon with" alt="pizza simple sign flat black icon with vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-simple-sign-flat-black-icon-with-vector-13969662.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/45/25/pizza-slice-icon-vector-21504525.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-slice-icon-vector-21504525" title="pizza slice icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/45/25/pizza-slice-icon-vector-21504525.jpg" title="pizza slice icon" alt="pizza slice icon vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-slice-icon-vector-21504525.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/45/54/pizza-icon-flat-vector-21174554.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-vector-21174554" title="pizza icon flat vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/45/54/pizza-icon-flat-vector-21174554.jpg" title="pizza icon flat" alt="pizza icon flat vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-flat-vector-21174554.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/52/74/pizza-icon-vector-21645274.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-vector-21645274" title="pizza icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/52/74/pizza-icon-vector-21645274.jpg" title="pizza icon" alt="pizza icon vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-vector-21645274.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/53/47/icon-pizza-in-flat-style-isolated-on-white-vector-10055347.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/icon-pizza-in-flat-style-isolated-on-white-vector-10055347" title="Icon Pizza in flat style isolated on white vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/53/47/icon-pizza-in-flat-style-isolated-on-white-vector-10055347.jpg" title="Icon Pizza in flat style isolated on white" alt="Icon Pizza in flat style isolated on white vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/icon-pizza-in-flat-style-isolated-on-white-vector-10055347.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/09/60/pizza-icon-icon-flat-vector-12270960.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-icon-flat-vector-12270960" title="Pizza icon icon flat vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/09/60/pizza-icon-icon-flat-vector-12270960.jpg" title="Pizza icon icon flat" alt="Pizza icon icon flat vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-icon-flat-vector-12270960.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/23/27/pizza-icon-sign-symbol-vector-22932327.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-sign-symbol-vector-22932327" title="pizza icon sign symbol vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/23/27/pizza-icon-sign-symbol-vector-22932327.jpg" title="pizza icon sign symbol" alt="pizza icon sign symbol vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-sign-symbol-vector-22932327.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/12/13/pizza-icon-vector-22391213.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-vector-22391213" title="pizza icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/12/13/pizza-icon-vector-22391213.jpg" title="pizza icon" alt="pizza icon vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-icon-vector-22391213.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/51/96/pizza-slice-with-melted-cheese-and-pepperoni-vector-21655196.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-slice-with-melted-cheese-and-pepperoni-vector-21655196" title="pizza slice with melted cheese and pepperoni vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/51/96/pizza-slice-with-melted-cheese-and-pepperoni-vector-21655196.jpg" title="pizza slice with melted cheese and pepperoni" alt="pizza slice with melted cheese and pepperoni vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/pizza-slice-with-melted-cheese-and-pepperoni-vector-21655196.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/97/64/slice-of-pizza-fast-italian-food-icon-vector-23559764.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/slice-of-pizza-fast-italian-food-icon-vector-23559764" title="slice of pizza - fast italian food icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/97/64/slice-of-pizza-fast-italian-food-icon-vector-23559764.jpg" title="slice of pizza - fast italian food icon" alt="slice of pizza - fast italian food icon vector image"></noscript><img src="./Pizza icon flat style Royalty Free Vector_files/slice-of-pizza-fast-italian-food-icon-vector-23559764.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/43/42/the-pizza-icon-fast-food-and-baking-symbol-flat-vector-5584342.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/the-pizza-icon-fast-food-and-baking-symbol-flat-vector-5584342" title="The pizza icon Fast food and baking symbol Flat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/43/42/the-pizza-icon-fast-food-and-baking-symbol-flat-vector-5584342.jpg" title="The pizza icon Fast food and baking symbol Flat" alt="The pizza icon Fast food and baking symbol Flat vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/89/10/round-icon-of-pizza-flat-style-with-long-shadow-vector-20508910.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/round-icon-of-pizza-flat-style-with-long-shadow-vector-20508910" title="round icon of pizza flat style with long shadow vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/89/10/round-icon-of-pizza-flat-style-with-long-shadow-vector-20508910.jpg" title="round icon of pizza flat style with long shadow" alt="round icon of pizza flat style with long shadow vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/72/78/pizza-icon-vector-22487278.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-vector-22487278" title="pizza icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/72/78/pizza-icon-vector-22487278.jpg" title="pizza icon" alt="pizza icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/16/71/pizza-concept-linear-icon-isolated-on-transparent-vector-22811671.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-concept-linear-icon-isolated-on-transparent-vector-22811671" title="pizza concept linear icon isolated on transparent vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/16/71/pizza-concept-linear-icon-isolated-on-transparent-vector-22811671.jpg" title="pizza concept linear icon isolated on transparent" alt="pizza concept linear icon isolated on transparent vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="13238773" data-title="pizza in flat style" data-src="https://cdn4.vectorstock.com/i/thumbs/87/73/pizza-in-flat-style-vector-13238773.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-in-flat-style-vector-13238773" title="pizza in flat style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/87/73/pizza-in-flat-style-vector-13238773.jpg" title="pizza in flat style" alt="pizza in flat style vector image"></noscript></a></li>
+						<li data-id="23603812" data-title="pizza line icon round pizza" data-src="https://cdn3.vectorstock.com/i/thumbs/38/12/pizza-line-icon-round-pizza-vector-23603812.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-line-icon-round-pizza-vector-23603812" title="pizza line icon round pizza vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/12/pizza-line-icon-round-pizza-vector-23603812.jpg" title="pizza line icon round pizza" alt="pizza line icon round pizza vector image"></noscript></a></li>
+						<li data-id="7185825" data-title="Flat design pizza icon with long shadow isolated" data-src="https://cdn1.vectorstock.com/i/thumbs/58/25/flat-design-pizza-icon-with-long-shadow-isolated-vector-7185825.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-design-pizza-icon-with-long-shadow-isolated-vector-7185825" title="Flat design pizza icon with long shadow isolated vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/58/25/flat-design-pizza-icon-with-long-shadow-isolated-vector-7185825.jpg" title="Flat design pizza icon with long shadow isolated" alt="Flat design pizza icon with long shadow isolated vector image"></noscript></a></li>
+						<li data-id="8622378" data-title="Yellow Pizza flat abstract logo sign design" data-src="https://cdn4.vectorstock.com/i/thumbs/23/78/yellow-pizza-flat-abstract-logo-sign-design-vector-8622378.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/yellow-pizza-flat-abstract-logo-sign-design-vector-8622378" title="Yellow Pizza flat abstract logo sign design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/23/78/yellow-pizza-flat-abstract-logo-sign-design-vector-8622378.jpg" title="Yellow Pizza flat abstract logo sign design" alt="Yellow Pizza flat abstract logo sign design vector image"></noscript></a></li>
+						<li data-id="6085831" data-title="Pizza icon flat web sign symbol logo label" data-src="https://cdn2.vectorstock.com/i/thumbs/58/31/pizza-icon-flat-web-sign-symbol-logo-label-vector-6085831.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-flat-web-sign-symbol-logo-label-vector-6085831" title="Pizza icon flat web sign symbol logo label vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/58/31/pizza-icon-flat-web-sign-symbol-logo-label-vector-6085831.jpg" title="Pizza icon flat web sign symbol logo label" alt="Pizza icon flat web sign symbol logo label vector image"></noscript></a></li>
+						<li data-id="22461184" data-title="pizza piece logo designs inspiration isolated on" data-src="https://cdn5.vectorstock.com/i/thumbs/11/84/pizza-piece-logo-designs-inspiration-isolated-on-vector-22461184.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-piece-logo-designs-inspiration-isolated-on-vector-22461184" title="pizza piece logo designs inspiration isolated on vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/11/84/pizza-piece-logo-designs-inspiration-isolated-on-vector-22461184.jpg" title="pizza piece logo designs inspiration isolated on" alt="pizza piece logo designs inspiration isolated on vector image"></noscript></a></li>
+						<li data-id="10387258" data-title="Pizza icon in flat style" data-src="https://cdn4.vectorstock.com/i/thumbs/72/58/pizza-icon-in-flat-style-vector-10387258.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-in-flat-style-vector-10387258" title="Pizza icon in flat style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/72/58/pizza-icon-in-flat-style-vector-10387258.jpg" title="Pizza icon in flat style" alt="Pizza icon in flat style vector image"></noscript></a></li>
+						<li data-id="21309631" data-title="top view pizza ingredients in the circle" data-src="https://cdn2.vectorstock.com/i/thumbs/96/31/top-view-pizza-ingredients-in-the-circle-vector-21309631.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/top-view-pizza-ingredients-in-the-circle-vector-21309631" title="top view pizza ingredients in the circle vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/96/31/top-view-pizza-ingredients-in-the-circle-vector-21309631.jpg" title="top view pizza ingredients in the circle" alt="top view pizza ingredients in the circle vector image"></noscript></a></li>
+						<li data-id="20868708" data-title="pizza slice" data-src="https://cdn4.vectorstock.com/i/thumbs/87/08/pizza-slice-vector-20868708.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-slice-vector-20868708" title="pizza slice vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/87/08/pizza-slice-vector-20868708.jpg" title="pizza slice" alt="pizza slice vector image"></noscript></a></li>
+						<li data-id="23570150" data-title="pizza logo" data-src="https://cdn1.vectorstock.com/i/thumbs/01/50/pizza-logo-vector-23570150.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-logo-vector-23570150" title="pizza logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/01/50/pizza-logo-vector-23570150.jpg" title="pizza logo" alt="pizza logo vector image"></noscript></a></li>
+						<li data-id="22498808" data-title="pizza line and glyph icon italian and food" data-src="https://cdn4.vectorstock.com/i/thumbs/88/08/pizza-line-and-glyph-icon-italian-and-food-vector-22498808.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-line-and-glyph-icon-italian-and-food-vector-22498808" title="pizza line and glyph icon italian and food vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/88/08/pizza-line-and-glyph-icon-italian-and-food-vector-22498808.jpg" title="pizza line and glyph icon italian and food" alt="pizza line and glyph icon italian and food vector image"></noscript></a></li>
+						<li data-id="23323487" data-title="pizza icon grunge ink" data-src="https://cdn3.vectorstock.com/i/thumbs/34/87/pizza-icon-grunge-ink-vector-23323487.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-grunge-ink-vector-23323487" title="pizza icon grunge ink vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/34/87/pizza-icon-grunge-ink-vector-23323487.jpg" title="pizza icon grunge ink" alt="pizza icon grunge ink vector image"></noscript></a></li>
+						<li data-id="21830279" data-title="pizza labels pizzeria logo design italian cuisine" data-src="https://cdn5.vectorstock.com/i/thumbs/02/79/pizza-labels-pizzeria-logo-design-italian-cuisine-vector-21830279.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-labels-pizzeria-logo-design-italian-cuisine-vector-21830279" title="pizza labels pizzeria logo design italian cuisine vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/02/79/pizza-labels-pizzeria-logo-design-italian-cuisine-vector-21830279.jpg" title="pizza labels pizzeria logo design italian cuisine" alt="pizza labels pizzeria logo design italian cuisine vector image"></noscript></a></li>
+						<li data-id="23401645" data-title="line pizza icons set" data-src="https://cdn1.vectorstock.com/i/thumbs/16/45/line-pizza-icons-set-vector-23401645.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/line-pizza-icons-set-vector-23401645" title="line pizza icons set vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/16/45/line-pizza-icons-set-vector-23401645.jpg" title="line pizza icons set" alt="line pizza icons set vector image"></noscript></a></li>
+						<li data-id="21152515" data-title="pizza on plate icon" data-src="https://cdn1.vectorstock.com/i/thumbs/25/15/pizza-on-plate-icon-vector-21152515.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-on-plate-icon-vector-21152515" title="pizza on plate icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/25/15/pizza-on-plate-icon-vector-21152515.jpg" title="pizza on plate icon" alt="pizza on plate icon vector image"></noscript></a></li>
+						<li data-id="16013992" data-title="pizza line icon" data-src="https://cdn3.vectorstock.com/i/thumbs/39/92/pizza-line-icon-vector-16013992.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-line-icon-vector-16013992" title="pizza line icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/39/92/pizza-line-icon-vector-16013992.jpg" title="pizza line icon" alt="pizza line icon vector image"></noscript></a></li>
+						<li data-id="11260165" data-title="Pizza Icon logo on white background" data-src="https://cdn1.vectorstock.com/i/thumbs/01/65/pizza-icon-logo-on-white-background-vector-11260165.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-logo-on-white-background-vector-11260165" title="Pizza Icon logo on white background vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/01/65/pizza-icon-logo-on-white-background-vector-11260165.jpg" title="Pizza Icon logo on white background" alt="Pizza Icon logo on white background vector image"></noscript></a></li>
+						<li data-id="10837299" data-title="Pizza Icon" data-src="https://cdn5.vectorstock.com/i/thumbs/72/99/pizza-icon-vector-10837299.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-vector-10837299" title="Pizza Icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/72/99/pizza-icon-vector-10837299.jpg" title="Pizza Icon" alt="Pizza Icon vector image"></noscript></a></li>
+						<li data-id="20735474" data-title="pizza pixel art piece of pizza is pixelated fast" data-src="https://cdn5.vectorstock.com/i/thumbs/54/74/pizza-pixel-art-piece-of-pizza-is-pixelated-fast-vector-20735474.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-pixel-art-piece-of-pizza-is-pixelated-fast-vector-20735474" title="pizza pixel art piece of pizza is pixelated fast vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/54/74/pizza-pixel-art-piece-of-pizza-is-pixelated-fast-vector-20735474.jpg" title="pizza pixel art piece of pizza is pixelated fast" alt="pizza pixel art piece of pizza is pixelated fast vector image"></noscript></a></li>
+						<li data-id="21088058" data-title="pizza icon outline slice food line pizza" data-src="https://cdn4.vectorstock.com/i/thumbs/80/58/pizza-icon-outline-slice-food-line-pizza-vector-21088058.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-outline-slice-food-line-pizza-vector-21088058" title="pizza icon outline slice food line pizza vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/58/pizza-icon-outline-slice-food-line-pizza-vector-21088058.jpg" title="pizza icon outline slice food line pizza" alt="pizza icon outline slice food line pizza vector image"></noscript></a></li>
+						<li data-id="21007001" data-title="italian pizza restaurant neon street signboard" data-src="https://cdn2.vectorstock.com/i/thumbs/70/01/italian-pizza-restaurant-neon-street-signboard-vector-21007001.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/italian-pizza-restaurant-neon-street-signboard-vector-21007001" title="italian pizza restaurant neon street signboard vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/70/01/italian-pizza-restaurant-neon-street-signboard-vector-21007001.jpg" title="italian pizza restaurant neon street signboard" alt="italian pizza restaurant neon street signboard vector image"></noscript></a></li>
+						<li data-id="20747798" data-title="traditional pizza elements whole hot pizza slices" data-src="https://cdn4.vectorstock.com/i/thumbs/77/98/traditional-pizza-elements-whole-hot-pizza-slices-vector-20747798.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/traditional-pizza-elements-whole-hot-pizza-slices-vector-20747798" title="traditional pizza elements whole hot pizza slices vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/77/98/traditional-pizza-elements-whole-hot-pizza-slices-vector-20747798.jpg" title="traditional pizza elements whole hot pizza slices" alt="traditional pizza elements whole hot pizza slices vector image"></noscript></a></li>
+						<li data-id="4375542" data-title="pizza flat icons set" data-src="https://cdn3.vectorstock.com/i/thumbs/55/42/pizza-flat-icons-set-vector-4375542.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-flat-icons-set-vector-4375542" title="pizza flat icons set vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/55/42/pizza-flat-icons-set-vector-4375542.jpg" title="pizza flat icons set" alt="pizza flat icons set vector image"></noscript></a></li>
+						<li data-id="2703695" data-title="Pizza web icon flat design Seamless gray pattern" data-src="https://cdn1.vectorstock.com/i/thumbs/36/95/pizza-web-icon-flat-design-seamless-gray-pattern-vector-2703695.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-web-icon-flat-design-seamless-gray-pattern-vector-2703695" title="Pizza web icon flat design Seamless gray pattern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/36/95/pizza-web-icon-flat-design-seamless-gray-pattern-vector-2703695.jpg" title="Pizza web icon flat design Seamless gray pattern" alt="Pizza web icon flat design Seamless gray pattern vector image"></noscript></a></li>
+						<li data-id="21401372" data-title="pizza graphic design template" data-src="https://cdn3.vectorstock.com/i/thumbs/13/72/pizza-graphic-design-template-vector-21401372.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-graphic-design-template-vector-21401372" title="pizza graphic design template vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/13/72/pizza-graphic-design-template-vector-21401372.jpg" title="pizza graphic design template" alt="pizza graphic design template vector image"></noscript></a></li>
+						<li data-id="15183389" data-title="pizza in color flat icon style" data-src="https://cdn5.vectorstock.com/i/thumbs/33/89/pizza-in-color-flat-icon-style-vector-15183389.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-in-color-flat-icon-style-vector-15183389" title="pizza in color flat icon style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/33/89/pizza-in-color-flat-icon-style-vector-15183389.jpg" title="pizza in color flat icon style" alt="pizza in color flat icon style vector image"></noscript></a></li>
+						<li data-id="21724009" data-title="pizza icon line symbol premium quality isolated" data-src="https://cdn5.vectorstock.com/i/thumbs/40/09/pizza-icon-line-symbol-premium-quality-isolated-vector-21724009.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-line-symbol-premium-quality-isolated-vector-21724009" title="pizza icon line symbol premium quality isolated vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/40/09/pizza-icon-line-symbol-premium-quality-isolated-vector-21724009.jpg" title="pizza icon line symbol premium quality isolated" alt="pizza icon line symbol premium quality isolated vector image"></noscript></a></li>
+						<li data-id="21654179" data-title="collection logos for menu of restaurants" data-src="https://cdn5.vectorstock.com/i/thumbs/41/79/collection-logos-for-menu-of-restaurants-vector-21654179.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/collection-logos-for-menu-of-restaurants-vector-21654179" title="collection logos for menu of restaurants vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/41/79/collection-logos-for-menu-of-restaurants-vector-21654179.jpg" title="collection logos for menu of restaurants" alt="collection logos for menu of restaurants vector image"></noscript></a></li>
+						<li data-id="23470843" data-title="cartoon silhouette black pizzeria signs set" data-src="https://cdn4.vectorstock.com/i/thumbs/08/43/cartoon-silhouette-black-pizzeria-signs-set-vector-23470843.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-silhouette-black-pizzeria-signs-set-vector-23470843" title="cartoon silhouette black pizzeria signs set vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/08/43/cartoon-silhouette-black-pizzeria-signs-set-vector-23470843.jpg" title="cartoon silhouette black pizzeria signs set" alt="cartoon silhouette black pizzeria signs set vector image"></noscript></a></li>
+						<li data-id="13813303" data-title="tasty pizza slice pictogram" data-src="https://cdn4.vectorstock.com/i/thumbs/33/03/tasty-pizza-slice-pictogram-vector-13813303.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/tasty-pizza-slice-pictogram-vector-13813303" title="tasty pizza slice pictogram vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/33/03/tasty-pizza-slice-pictogram-vector-13813303.jpg" title="tasty pizza slice pictogram" alt="tasty pizza slice pictogram vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors"><span class="lrg">More Flat Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Ylivdesign" rel="nofollow">Ylivdesign</a></strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/71/75/pizza-icon-circle-vector-15557175.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-circle-vector-15557175" title="pizza icon circle vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/71/75/pizza-icon-circle-vector-15557175.jpg" title="pizza icon circle" alt="pizza icon circle vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/31/18/pizza-icons-set-flat-style-vector-13833118.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-flat-style-vector-13833118" title="pizza icons set flat style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/31/18/pizza-icons-set-flat-style-vector-13833118.jpg" title="pizza icons set flat style" alt="pizza icons set flat style vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/00/68/pizza-icon-outline-style-vector-20720068.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-outline-style-vector-20720068" title="pizza icon outline style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/00/68/pizza-icon-outline-style-vector-20720068.jpg" title="pizza icon outline style" alt="pizza icon outline style vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/29/63/pizza-icons-set-in-flat-style-vector-20912963.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-in-flat-style-vector-20912963" title="pizza icons set in flat style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/29/63/pizza-icons-set-in-flat-style-vector-20912963.jpg" title="pizza icons set in flat style" alt="pizza icons set in flat style vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/39/04/pizza-icons-set-food-flat-style-vector-13833904.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-food-flat-style-vector-13833904" title="pizza icons set food flat style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/39/04/pizza-icons-set-food-flat-style-vector-13833904.jpg" title="pizza icons set food flat style" alt="pizza icons set food flat style vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/15/77/pizza-icons-set-isometric-style-vector-20611577.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-isometric-style-vector-20611577" title="pizza icons set isometric style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/15/77/pizza-icons-set-isometric-style-vector-20611577.jpg" title="pizza icons set isometric style" alt="pizza icons set isometric style vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/36/83/pizza-icon-cartoon-style-vector-12223683.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-cartoon-style-vector-12223683" title="Pizza icon cartoon style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/36/83/pizza-icon-cartoon-style-vector-12223683.jpg" title="Pizza icon cartoon style" alt="Pizza icon cartoon style vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/29/83/pizza-icons-set-food-simple-style-vector-20912983.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-food-simple-style-vector-20912983" title="pizza icons set food simple style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/29/83/pizza-icons-set-food-simple-style-vector-20912983.jpg" title="pizza icons set food simple style" alt="pizza icons set food simple style vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/37/15/pizza-icons-set-9-vector-23053715.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-9-vector-23053715" title="pizza icons set 9 vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/37/15/pizza-icons-set-9-vector-23053715.jpg" title="pizza icons set 9" alt="pizza icons set 9 vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/39/14/pizza-icons-set-food-simple-style-vector-13833914.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-food-simple-style-vector-13833914" title="pizza icons set food simple style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/39/14/pizza-icons-set-food-simple-style-vector-13833914.jpg" title="pizza icons set food simple style" alt="pizza icons set food simple style vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="13833929" data-title="pizza icons set food outline style" data-src="https://cdn5.vectorstock.com/i/thumbs/39/29/pizza-icons-set-food-outline-style-vector-13833929.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-food-outline-style-vector-13833929" title="pizza icons set food outline style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/39/29/pizza-icons-set-food-outline-style-vector-13833929.jpg" title="pizza icons set food outline style" alt="pizza icons set food outline style vector image vector image"></noscript></a></li>
+						<li data-id="21057797" data-title="pizza pattern seamless blue" data-src="https://cdn3.vectorstock.com/i/thumbs/77/97/pizza-pattern-seamless-blue-vector-21057797.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-pattern-seamless-blue-vector-21057797" title="pizza pattern seamless blue vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/77/97/pizza-pattern-seamless-blue-vector-21057797.jpg" title="pizza pattern seamless blue" alt="pizza pattern seamless blue vector image vector image"></noscript></a></li>
+						<li data-id="23463951" data-title="pizza icon green" data-src="https://cdn2.vectorstock.com/i/thumbs/39/51/pizza-icon-green-vector-23463951.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-green-vector-23463951" title="pizza icon green vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/39/51/pizza-icon-green-vector-23463951.jpg" title="pizza icon green" alt="pizza icon green vector image vector image"></noscript></a></li>
+						<li data-id="20889447" data-title="pizza icons set 9" data-src="https://cdn3.vectorstock.com/i/thumbs/94/47/pizza-icons-set-9-vector-20889447.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-9-vector-20889447" title="pizza icons set 9 vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/94/47/pizza-icons-set-9-vector-20889447.jpg" title="pizza icons set 9" alt="pizza icons set 9 vector image vector image"></noscript></a></li>
+						<li data-id="21156239" data-title="pizza icons set color" data-src="https://cdn5.vectorstock.com/i/thumbs/62/39/pizza-icons-set-color-vector-21156239.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-color-vector-21156239" title="pizza icons set color vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/62/39/pizza-icons-set-color-vector-21156239.jpg" title="pizza icons set color" alt="pizza icons set color vector image vector image"></noscript></a></li>
+						<li data-id="20786731" data-title="pizza icon green" data-src="https://cdn2.vectorstock.com/i/thumbs/67/31/pizza-icon-green-vector-20786731.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-green-vector-20786731" title="pizza icon green vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/67/31/pizza-icon-green-vector-20786731.jpg" title="pizza icon green" alt="pizza icon green vector image vector image"></noscript></a></li>
+						<li data-id="20889089" data-title="pizza icons set 9" data-src="https://cdn5.vectorstock.com/i/thumbs/90/89/pizza-icons-set-9-vector-20889089.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-9-vector-20889089" title="pizza icons set 9 vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/90/89/pizza-icons-set-9-vector-20889089.jpg" title="pizza icons set 9" alt="pizza icons set 9 vector image vector image"></noscript></a></li>
+						<li data-id="20776819" data-title="pizza pattern seamless blue" data-src="https://cdn5.vectorstock.com/i/thumbs/68/19/pizza-pattern-seamless-blue-vector-20776819.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-pattern-seamless-blue-vector-20776819" title="pizza pattern seamless blue vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/68/19/pizza-pattern-seamless-blue-vector-20776819.jpg" title="pizza pattern seamless blue" alt="pizza pattern seamless blue vector image vector image"></noscript></a></li>
+						<li data-id="21155544" data-title="pizza icons set color" data-src="https://cdn5.vectorstock.com/i/thumbs/55/44/pizza-icons-set-color-vector-21155544.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icons-set-color-vector-21155544" title="pizza icons set color vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/55/44/pizza-icons-set-color-vector-21155544.jpg" title="pizza icons set color" alt="pizza icons set color vector image vector image"></noscript></a></li>
+						<li data-id="20785211" data-title="pizza icon green" data-src="https://cdn2.vectorstock.com/i/thumbs/52/11/pizza-icon-green-vector-20785211.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-green-vector-20785211" title="pizza icon green vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/52/11/pizza-icon-green-vector-20785211.jpg" title="pizza icon green" alt="pizza icon green vector image vector image"></noscript></a></li>
+						<li data-id="20783130" data-title="pizza pattern seamless blue" data-src="https://cdn1.vectorstock.com/i/thumbs/31/30/pizza-pattern-seamless-blue-vector-20783130.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-pattern-seamless-blue-vector-20783130" title="pizza pattern seamless blue vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/31/30/pizza-pattern-seamless-blue-vector-20783130.jpg" title="pizza pattern seamless blue" alt="pizza pattern seamless blue vector image vector image"></noscript></a></li>
+						<li data-id="13945324" data-title="tasty pizza label icon flat style" data-src="https://cdn5.vectorstock.com/i/thumbs/53/24/tasty-pizza-label-icon-flat-style-vector-13945324.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/tasty-pizza-label-icon-flat-style-vector-13945324" title="tasty pizza label icon flat style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/53/24/tasty-pizza-label-icon-flat-style-vector-13945324.jpg" title="tasty pizza label icon flat style" alt="tasty pizza label icon flat style vector image vector image"></noscript></a></li>
+						<li data-id="13945418" data-title="pizza emblem for pizzeria icon flat style" data-src="https://cdn4.vectorstock.com/i/thumbs/54/18/pizza-emblem-for-pizzeria-icon-flat-style-vector-13945418.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-emblem-for-pizzeria-icon-flat-style-vector-13945418" title="pizza emblem for pizzeria icon flat style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/54/18/pizza-emblem-for-pizzeria-icon-flat-style-vector-13945418.jpg" title="pizza emblem for pizzeria icon flat style" alt="pizza emblem for pizzeria icon flat style vector image vector image"></noscript></a></li>
+						<li data-id="13945360" data-title="pizza badge with red ribbon icon flat style" data-src="https://cdn1.vectorstock.com/i/thumbs/53/60/pizza-badge-with-red-ribbon-icon-flat-style-vector-13945360.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-badge-with-red-ribbon-icon-flat-style-vector-13945360" title="pizza badge with red ribbon icon flat style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/53/60/pizza-badge-with-red-ribbon-icon-flat-style-vector-13945360.jpg" title="pizza badge with red ribbon icon flat style" alt="pizza badge with red ribbon icon flat style vector image vector image"></noscript></a></li>
+						<li data-id="15291787" data-title="pizza pattern flat" data-src="https://cdn3.vectorstock.com/i/thumbs/17/87/pizza-pattern-flat-vector-15291787.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-pattern-flat-vector-15291787" title="pizza pattern flat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/17/87/pizza-pattern-flat-vector-15291787.jpg" title="pizza pattern flat" alt="pizza pattern flat vector image vector image"></noscript></a></li>
+						<li data-id="17041632" data-title="pizza icon simple black style" data-src="https://cdn3.vectorstock.com/i/thumbs/16/32/pizza-icon-simple-black-style-vector-17041632.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-simple-black-style-vector-17041632" title="pizza icon simple black style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/16/32/pizza-icon-simple-black-style-vector-17041632.jpg" title="pizza icon simple black style" alt="pizza icon simple black style vector image vector image"></noscript></a></li>
+						<li data-id="17040953" data-title="pizza icon outline line style" data-src="https://cdn4.vectorstock.com/i/thumbs/09/53/pizza-icon-outline-line-style-vector-17040953.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-outline-line-style-vector-17040953" title="pizza icon outline line style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/09/53/pizza-icon-outline-line-style-vector-17040953.jpg" title="pizza icon outline line style" alt="pizza icon outline line style vector image vector image"></noscript></a></li>
+						<li data-id="8150468" data-title="Pizza icon isometric 3d style" data-src="https://cdn4.vectorstock.com/i/thumbs/04/68/pizza-icon-isometric-3d-style-vector-8150468.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-isometric-3d-style-vector-8150468" title="Pizza icon isometric 3d style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/04/68/pizza-icon-isometric-3d-style-vector-8150468.jpg" title="Pizza icon isometric 3d style" alt="Pizza icon isometric 3d style vector image vector image"></noscript></a></li>
+						<li data-id="12037481" data-title="Pizza icon outline style" data-src="https://cdn2.vectorstock.com/i/thumbs/74/81/pizza-icon-outline-style-vector-12037481.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizza-icon-outline-style-vector-12037481" title="Pizza icon outline style vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/74/81/pizza-icon-outline-style-vector-12037481.jpg" title="Pizza icon outline style" alt="Pizza icon outline style vector image vector image"></noscript></a></li>
+						<li data-id="20922612" data-title="pizzeria logo icons set simple style" data-src="https://cdn3.vectorstock.com/i/thumbs/26/12/pizzeria-logo-icons-set-simple-style-vector-20922612.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/pizzeria-logo-icons-set-simple-style-vector-20922612" title="pizzeria logo icons set simple style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/26/12/pizzeria-logo-icons-set-simple-style-vector-20922612.jpg" title="pizzeria logo icons set simple style" alt="pizzeria logo icons set simple style vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Ylivdesign" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/pizza-vectors">Pizza</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/style-vectors">Style</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/italy-vectors">Italy</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/slice-vectors">Slice</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vegetarian-vectors">Vegetarian</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/delicious-vectors">Delicious</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/bar-vectors">Bar</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/italian-vectors">Italian</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/meal-vectors">Meal</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cafe-vectors">Cafe</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/restaurant-vectors">Restaurant</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/supper-vectors">Supper</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/pepperoni-vectors">Pepperoni</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/yummy-vectors">Yummy</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/dinner-vectors">Dinner</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/eat-vectors">Eat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/piece-vectors">Piece</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/fast-food-vectors">Fast-food</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/bake-vectors">Bake</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cut-vectors">Cut</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/good-vectors">Good</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cheese-vectors">Cheese</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/round-vectors">Round</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/lunch-vectors">Lunch</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+									</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+					<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/signup?contributor" title="Become a VectorStock Contributor">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					<ul>
+			</ul></ul></nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="http://www.facebook.com/VectorStock" target="_blank"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="http://pinterest.com/vectorstock/" target="_blank"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2019. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div></footer>
+
+
+	<script src="./Pizza icon flat style Royalty Free Vector_files/f.txt"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJEQ0ZH1YUCFJdDB9eCgAQThZDQA1UHxRXWxIOFk5UBgpXBAFWAA==","queueTime":0,"applicationTime":36,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+</body></html>

@@ -1,0 +1,129 @@
+.list {
+    list-style: none;
+}
+body {
+    background-color: rgb(145, 84, 62);
+}
+
+.all {
+    background-color:rgb(202, 83, 39);
+}
+
+.nav-bar {
+    background-color: rgb(202, 83, 39);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-bar button {
+    height:50px;
+    background: none;
+    width: auto;
+    font-size: 20px;
+    color: rgb(236, 199, 139);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    border: none;
+}
+
+
+.nav-bar a {
+    color: rgb(236, 199, 139);
+    font-size: 20px;
+    
+}
+
+.nav-bar a:hover {
+    color:rgb(236, 199, 139);
+    font-size: 20px;
+    
+}
+.nav-bar button:hover {
+    color:rgb(236, 199, 139);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-bar button:active {
+    color:rgb(236, 199, 139);
+    font-size: 20px;
+    border: none;
+}
+
+.card-body {
+    color: rgb(202, 83, 39);
+    background: rgb(236, 199, 139);
+}
+
+.card img {
+    height: 255px;
+    background: rgb(236, 199, 139);
+    border-radius:0;
+    border:none;
+  }
+.card {
+    border: none;
+}
+
+table {
+    color: rgb(202, 83, 39);
+}
+
+
+td, tr {
+    background: rgb(236, 199, 139);
+}
+
+
+.heading {
+    background: url(../img/bgpizz.jpg) no-repeat;
+    background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+   display: block;
+   padding-top: 350px;
+   padding-bottom: 400px;
+   margin-bottom: 45px;
+   color: #fff;
+}
+
+.head-main {
+    text-align: center;
+    font-weight: 600;
+    font-size: 64px;
+    
+    color: rgb(236, 199, 139);
+    padding-bottom: 45px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: white 1.5px;
+    
+}
+
+.bottom-list {
+    margin-bottom:45px;
+}
+
+.card-title {
+    width: 100%;
+    border-bottom:rgb(202, 83, 39) solid 3px;
+    border-top: rgb(202, 83, 39) solid 3px;
+    
+}
+
+
+
+.modal-body, .modal-header {
+    background-color: rgb(236, 199, 139);
+}
+
+
